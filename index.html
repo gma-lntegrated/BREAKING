@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Watch my video</title>
+  <meta charset="utf-8">
+  <title>Watch my new video</title>
 
   <!-- Messenger Preview -->
   <meta property="og:title" content="Watch my new video 🎬">
   <meta property="og:description" content="Tap to watch on YouTube">
   <meta property="og:image" content="https://raw.githubusercontent.com/gma-lntegrated/BREAKING/main/3f3c518b3afa4bb9bb9087a89441ef69.jpg">
+  <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/gma-lntegrated/BREAKING/main/3f3c518b3afa4bb9bb9087a89441ef69.jpg">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gma-lntegrated.github.io/BREAKING/">
 
-  <!-- Instant redirect -->
-  <meta http-equiv="refresh" content="0;url=https://youtu.be/TpKfnnWtB4I?si=SnnQv4vNLwpX1xEv">
+  <!-- Redirect after preview loads -->
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://youtu.be/TpKfnnWtB4I?si=SnnQv4vNLwpX1xEv";
+    }, 1200);
+  </script>
 </head>
 <body>
 </body>
